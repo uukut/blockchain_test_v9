@@ -1,0 +1,1110 @@
+/* General stuff */
+
+body {
+  margin: 0;
+  padding: 0;
+} /* set the body */
+
+* {
+  font-family: Poppins;
+} /*  set all font-family */
+
+select {
+  border: none;
+  height: 30px;
+  width: 80px;
+  font-size: 125%;
+  text-align: right;
+} /* set select */
+
+
+/* General stuff */
+
+
+
+/* header.js css */
+
+.header {
+  display: flex;
+  height: 12vh;
+}/* header div */
+
+.TranSwap_div {
+  display: flex;
+  align-items: center;
+  width: 18vw;
+  overflow: hidden;
+}/* TranSwap div */
+
+.TranSwap {
+  margin-left: 10px;
+  height: 10vh;
+  width: 10vw;
+}/* TranSwap image */
+
+.link_div {
+  display: flex;
+  width: 20vw;
+  margin-left: 5%;
+  justify-content: space-between;
+}/* div contain the swap and liquidity link */
+
+.nav-item-link {
+  text-decoration: none;
+  color: #C3C5C8;
+  font-size: 120%;
+  margin-bottom: 10px;
+}/* Swap and Liquidity div*/
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}/* div containing Swap and Liquidity */
+
+.nav-item-link:hover {
+  color: rgb(74, 157, 185);
+  font-size: 125%;
+  transition: 0.5s;
+}/* Swap and Liquidity div on hover*/
+
+.nav-item-link:active {
+  color: black;
+}/* Swap and Liquidity div on clicked*/
+
+.connect_div {
+  display: flex;
+  width: 80vw;
+  justify-content: end;
+  align-items: center;
+}/* Connect Metamask button div */
+
+.connect {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 50px;
+  width: auto;
+  padding: 10px 25px;
+  font-family: Poppins;
+  align-items: center;
+  background-color: rgb(74, 157, 185);
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  color: white;
+  transition: 0.45s;
+}/* Connect Metamask button */
+
+.connect:hover {
+  opacity: 0.8;
+}/* Connect Metamask button on hover */
+
+.connect:active {
+  color: black;
+}/* Connect Metamask button on clicked */
+
+.connect div {
+  display: flex;
+  align-items: center;
+}/* The button after Metamask is connected
+
+/*header.js css*/
+
+
+
+/* Agreement css */
+
+.agreement_div {
+  position: fixed;
+  left: 30%;
+  top: 20%;
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 150;
+  color: black;
+  background-color: white;
+  visibility: hidden;
+  opacity: 1;
+  border-radius: 10px;
+}/* Agreement of the website */
+
+.agreement_div h3 {
+  padding: 2% 5% 0 5%;
+}/* The topic h3 of the agreement */
+
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: gray;
+  opacity: 0.8;
+  outline: 0;
+  visibility: hidden;
+  overflow-y: scroll;
+}/* gray page covering the whole page  while user click the agreement */
+
+.acknowledgement {
+  padding: 2% 5% 0 5%;
+  margin-top: 0;
+}/* Acknowledgement of the agreement */
+
+.notice_div {
+  padding: 0 5%;
+  overflow-y: scroll;
+  height: 40%;
+  border-top: 1px solid rgb(128, 128, 128, 0.2);
+  border-bottom: 1px solid rgb(128, 128, 128, 0.2);
+}/* Content div of the agreement */
+
+.notice {
+  flex: 1;
+}/* Content of the agreement */
+
+.checkbox_div {
+  display: flex;
+  align-items: center;
+  padding: 0 5% 0 5%;
+}/* Checkbox div inside the agreement */
+
+.checkbox_div input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}/* Checkbox inside the agreement */
+
+.btn_div {
+  display: flex;
+  justify-content: center;
+}/* Div contains button div inside the agreement */
+
+.btn_container{
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+} /* Contain two buttons (decline and accept) */
+
+.btn_div_2 button {
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  transition: opacity 0.45s;
+}/* Decline and accept button inside the agreement */
+
+.decline_btn {
+  background-color: rgb(60, 104, 222);
+  cursor: pointer;
+}/* Decline button */
+
+.decline_btn:hover {
+  opacity: 0.8;
+}/* Decline button on hover */
+
+/* Agreement css */
+
+
+
+/*Swap.js css */
+
+.main {
+  display: flex;
+  height: 88vh;
+  width: 100%;
+  background-color: rgba(24 36 53 / 10%);
+  justify-content: center;
+}/* motion div of Swap */
+
+.swap_main {
+  display: block;
+  margin-top: 5vh;
+  height: 60vh;
+  width: 57vw;
+  background-color: white;
+  border-radius: 20px;
+}/* Main div of Swap */
+
+.main_header {
+  display: flex;
+  width: 100%;
+  padding: 25px;
+  height: 5%;
+}/* Header of the Swap */
+
+.Swap_div {
+  width: 90%;
+  font-weight: bold;
+}/* Div for Swap label */
+
+label {
+  font-size: 130%;
+}/* Swap label */
+
+hr {
+  width: 105%;
+  transition: width 0.2s;
+  opacity: 0.3;
+}/* a line to divide the header and the main of Swap */
+
+.refresh_div {
+  width: 5%;
+  align-items: center;
+}/* Div of refresh button */
+
+/* Swap.js css */
+
+
+
+/* SwapExchange.js css */
+
+.swap_label {
+  display: flex;
+  padding: 2% 5% 2% 4%;
+} /* Div for swap label */
+
+.inner_swap_container{
+  width: 40%;
+} /* Result of the tokens selected in swap */
+
+.inner_swap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}/* Div for swap label */
+
+.swap_label_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  padding: 1% 3%;
+  font-size: 75%;
+}/* Inner swap div */
+
+.swap_btn {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}/* Swap button */
+
+.change_btn {
+  background-color: white;
+  color: rgb(74, 157, 185);
+  border: none;
+  font-size: 125%;
+  cursor: pointer;
+  text-align: right;
+}/* Change token button */
+
+.change_btn::before{
+  content: "Change tokens";
+} /* Change token button on change along with viewpoint */
+
+.swap_exchange {
+  display: flex;
+  width: 100%;
+}/* Outer swap div for exchange */
+
+.swap_exchange_div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 14vh;
+  justify-content: center;
+  background-color: rgb(128, 128, 128, 0.15);
+  padding: 2% 2.5%;
+  border-radius: 10px;
+}/* Inner swap div for exchange */
+
+.exchange {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}/* Inner exchange div for Inner swap div for exchange */
+
+.inner_exchange {
+  display: flex;
+  align-items: center;
+}/* Contains the icon and the name of the token */
+
+.exchange img {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  margin-right: 10px;
+}/* icon for the tokens */
+
+.inner_input {
+  width: 80px;
+  height: 20px;
+  text-align: right;
+  background-color: transparent;
+  border: none;
+}/* Input for the amount of the tokens being exchange */
+
+.convert_div {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/* Div for the convert button */
+
+.convert {
+  width: 50%;
+  height: 50%;
+}/* Convert button */
+
+.outer_trade{
+  display: flex;
+  justify-content: center;
+} /* Outer of the Trade div */
+
+.Trade {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(128,128,128,0.2);
+}/* Div for containing the trade details */
+
+.trade_info {
+  margin: 1% 2.5%;
+  border-radius: 20px;
+  overflow: hidden;
+}/* Div for containing trade information */
+
+.trade_info h3 {
+  border-bottom: 1px dashed rgb(128, 128, 128, 0.3);
+}/* Sub-itle of the trade information */
+
+.trade_content {
+  padding: 0 2%;
+  border-bottom: 1px dotted rgb(128, 128, 128, 0.3);
+}/* Div for trade detail's content */
+
+.trade_element {
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 0;
+}/* Div for element inside the trade details */
+
+.trade_rate {
+  display: flex;
+  align-items: center;
+}/* Div for trade rate */
+
+.left_token,
+.right_token {
+  display: flex;
+  margin: 0 5px;
+}/* left and right trade rate */
+
+.receiving {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}/* receive tokens' div */
+
+.special{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/* Price impact value div inside trade */
+
+.trade_element button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}/* swap the left and right tokens' rate */
+
+.trade_element img {
+  height: 30px;
+  width: 30px;
+  margin-left: 5px;
+}/* swap image for the rate */
+
+.trade_details {
+  margin-left: 2%;
+  margin-top: 2%;
+  float: left;
+}/* Div for the trade details button */
+
+.trade_details button {
+  padding: 10px 20px;
+  background-color: white;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}/* Trade details button */
+
+.trade_details button:hover {
+  background-color: blue;
+  color: white;
+}/* Trade details button on hover */
+
+.confirm_trade_btn{
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 15%;
+  border: none;
+  background-color: gray;
+  color: white;
+  font-size: 120%;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.confirm_trade_btn:hover{
+  background-color: white;
+  color: rgb(74, 157, 185);
+}
+
+.trade_btn{
+  margin-right: 5%;
+  margin-top: 2%;
+  border: none;
+  background-color: white;
+  color: rgb(74, 157, 185);
+  font-size: 120%;
+  cursor: pointer;
+  width: 200px;
+}/* Trade button */
+
+.center_div {
+  position: fixed;
+  left: 30%;
+  top: 5%;
+  width: 40%;
+  height: 90%;
+  text-align: center;
+  padding: 1%;
+  z-index: 150;
+  color: black;
+  background-color: white;
+  visibility: hidden;
+  opacity: 1;
+  border-radius: 10px;
+}/* Div for Change token */
+
+.center_inner_div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}/* Div for Change token */
+
+.center_inner_div button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 100%;
+  transition: font-size 0.5s;
+}/* X button of Change token */
+
+.center_inner_div button:hover {
+  font-size: 125%;
+  color: blue;
+}/* X button of Change token on hover */
+
+.center_inner_div div {
+  font-size: 125%;
+}/* Inner div for Change token */
+
+.token_choice_div {
+  display: flex;
+  margin: 20px 0;
+}/* Div for each tokens in Change token */
+
+.token_choice_div button {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: background-color 0.35s;
+}/* Button for each token */
+
+.token_choice_div button:hover {
+  background-color: blue;
+}/* Button for each token on hover*/
+
+.token_choice_div img {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin-right: 20px;
+}/* Icons for each tokens */
+
+.button_choice_div {
+  display: flex;
+  justify-content: space-between;
+}/* The div for each tokens' button text */
+
+.token_added_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  background-color: gray;
+  opacity: 0.8;
+  visibility: hidden;
+}/* The gray div covering whole page while the Chnage token button is clicked */
+
+/* SwapExchange.js css */
+
+
+
+
+/* Liquidity.css */
+
+.liquidity_main {
+  display: block;
+  height: 88vh;
+  width: 100%;
+  background-color: rgba(24 36 53 / 10%);
+  justify-content: center;
+}/* Structure of the liquidity div */
+
+.liquidity {
+  padding: 2% 5%;
+  height: 10%;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}/* Liquidity header */
+
+.liquidity_div {
+  display: flex;
+  align-items: center;
+}/* Div for the management label */
+
+.liquidity label {
+  font-size: 150%;
+}/* Label of Management */
+
+.new_pos_btn_div {
+  text-align: center;
+}/* Div for Add position button */
+
+.liquidity button {
+  text-align: center;
+  width: 15vw;
+  height: 7vh;
+  border: none;
+  background-color: rgb(74, 157, 185);
+  color: white;
+  font-size: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.45s;
+}/* Add position button */
+
+.liquidity button::before{
+  content: "+ Position";
+}/* Add position button before viewpoint change */
+
+.liquidity button:hover {
+  opacity: 0.8;
+}/* Add position button on hover */
+
+.main_content {
+  width: 90%;
+  height: 60%;
+  margin: 0 5%;
+  border-radius: 10px;
+  background-color: white;
+}/* Div for the liquidity result */
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10px;
+}/* Inner div for the liquidity result */
+
+.content_img {
+  margin-top: 4%;
+  height: 10%;
+  width: 10%;
+}/* Images inside the liquidity */
+
+.content div{
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.LQT button{
+  background-color: lightblue;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.LQT button:hover{
+  background-color: black;
+  color: white;
+}
+
+.LQT{
+  margin-top: 0px;
+  display: flex;
+  padding: 1.5% 10%;
+  border-bottom: solid 1px gray;
+  justify-content: space-between;
+}
+
+.token_img{
+  height: 30px;
+  width: 30px;
+}
+
+/* Liquidity.css */
+
+
+
+/* AddPosition.js css */
+
+.position_main {
+  align-items: center;
+  height: 120vh;
+  overflow-y: hidden;
+}/* Position of the main of Add Position */
+
+.add_main {
+  margin-top: 2%;
+  width: 60%;
+  height: 110vh;
+  border-radius: 15px;
+  background-color: white;
+}/* Add Position div */
+
+.add_header {
+  padding: 1% 0.5%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.15);
+}/* Header of Add Position */
+
+.add_header button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}/* Return button of Add Position header */
+
+.add_header img {
+  height: 40px;
+  width: 40px;
+}/* Arrow image inside the return button */
+
+.main_add {
+  padding: 0 3%;
+}/* content of the Add Position */
+
+.main_add button {
+  width: 100%;
+  padding: 2% 0;
+  border: 1px solid gray;
+  border-style: dotted;
+  border-radius: 20px;
+  cursor: pointer;
+}/* Add pairs button */
+
+.main_add button div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/* Text of add pairs button */
+
+.main_add img {
+  height: 30px;
+  width: 30px;
+}/* Add position button's image */
+
+.chosen_token {
+  display: flex;
+  margin-top: 2%;
+}/* The div contain the token being chosen by the user */
+
+.detail_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(139, 145, 236);
+  width: 100%;
+  height: 200px;
+  margin: 0 50px;
+  border-radius: 15px;
+  overflow: hidden;
+}/* The div of the token chosen */
+
+.detail_div div {
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+}/* The inner div of token chosen divs */
+
+.token_icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 30px;
+  margin-right: 20px;
+}/* The tokens' icon */
+
+.user_input{
+  background-color: transparent;
+  color: black;
+  width: 75px;
+  border: none;
+  text-align: right;
+}
+
+.container_tk {
+  display: flex;
+  justify-content: center;
+}/* The info of the tokens chosen */
+
+.container_tk input {
+  text-align: right;
+  border: none;
+  width: 75px;
+  margin-bottom: 10px;
+  font-size: 115%;
+}/* Input of the gas */
+
+.tk_detail {
+  margin-top: 30px;
+  padding: 0 3%;
+  width: 60%;
+  border-radius: 25px;
+}/* The info of the tokens chosen */
+
+.tk_detail_inner_div {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  border-bottom: 1px dashed rgb(128, 128, 128, 0.2);
+}/* The element of the tokens info */
+
+.tk_detail_inner_div button {
+  position: relative;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}/* Swap button inside the rate */
+
+.tk_detail_inner_div img {
+  height: 15px;
+  width: 20px;
+}/* Image of the swap button */
+
+.apply_div {
+  display: flex;
+  justify-content: center;
+}/* Div for the apply button */
+
+.apply_button {
+  padding: 10px 35px;
+  cursor: pointer;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  margin: 0 20px;
+  transition: opacity 0.25s;
+}/* Apply button */
+
+.apply_button:hover {
+  opacity: 0.7;
+}/* Apply button on hover */
+
+.cancel_button {
+  padding: 10px 35px;
+  cursor: pointer;
+  background-color: gray;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  margin: 0 20px;
+  transition: opacity 0.25s;
+}/* Cancel button */
+
+.reset_button:hover {
+  opacity: 0.7;
+}/* Cancel button on hover */
+
+.token_choice_div {
+  display: flex;
+  justify-content: space-between;
+}/* The choose panel of the tokens */
+
+.token_choice_div div {
+  display: flex;
+  align-items: center;
+}/* Each tokens div */
+
+.close_btn {
+  width: 20px;
+  height: 20px;
+}/* Close button */
+
+/* AddPosition.js css */
+
+.corner_div{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  bottom: 10px;
+  right: 20px;
+  height: 50px;
+  width: 150px;
+  visibility: hidden;
+} /* Div for switch button link to swap/liquidity */
+
+.change_swap_pages, .change_liquidity_pages{
+  position: relative;
+  height: auto;
+  width: auto;
+  border: none;
+  border-radius: 15px;
+  background-color: green;
+  transition: 0.75s;
+  color: white;
+  font-family: bold;
+} /* Switch button link to swap/liquidity */
+
+.change_swap_pages:hover,
+.change_liquidity_pages:hover{
+  opacity: 0.8;
+  font-size: 125%;
+}/* Switch button link to swap/liquidity on hover*/
+
+/* Other screen size suitation */
+
+@media screen and (max-width: 1200px) {
+  .swap_main {
+    width: 77vw;
+  }
+
+  .center_div {
+    left: 20%;
+    width: 60vw;
+  }
+
+  .add_main {
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .link_div {
+    width: 45vw;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+
+  .TranSwap_div {
+    width: 25vw;
+  }
+
+  .TranSwap {
+    width: 25vw;
+  }
+
+  .agreement_div{
+    left: 25%;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .swap_main{
+    width: 90vw;
+  }
+
+  .swap_exchange_div{
+    width: 100%;
+  }
+
+  .convert{
+    width: 35px;
+    height: 35px;
+  }
+  
+}
+
+@media screen and (max-width: 700px) {
+
+  .Swap_div {
+    width: 87%;
+  }
+
+  .refresh_div {
+    width: 13%;
+  }
+
+  .refresh {
+    height: 14px;
+    width: 14px;
+  }
+
+  .agreement_div {
+    left: 20%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .link_div {
+    display: none;
+  }
+
+  .TranSwap_div {
+    width: 45vw;
+  }
+
+  .TranSwap {
+    width: 45vw;
+  }
+
+  .new_pos_btn_div button::before{
+    content: "+ POS";
+  }
+
+  .change_btn::before{
+    content: "Tokens";
+  }
+
+  .corner_div{
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .Swap_div {
+    width: 80%;
+  }
+  
+  .refresh_div {
+    width: 20%;
+  }
+
+  .agreement_div{
+    top: 10%;
+    height: 80vh;
+    left: 10%;
+    width: 80vw;
+  }
+
+  .swap_label{
+    display: block;
+    justify-content: center;
+    padding: 10px 30px;
+  }
+
+  .inner_swap_container{
+    width: 100%;
+  }
+
+  .convert_div{
+    width: 100%;
+  }
+
+  .swap_main{
+    height: 70vh;
+  }
+
+  .add_main{
+    height: 900px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-height: 700px) {
+  .position_main{
+    height: 800px;
+  }  
+
+  .add_main{
+    height: 750px;
+  }
+}
+
+@media screen and (max-height: 650px){
+  .header{
+    height: 20vh;
+  }
+
+  .swap_main {
+   height: 375px;
+  }
+
+  .agreement_div{
+    top: 10%;
+    height: 500px;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .main{
+    height: 400px;
+  }
+
+  .add_main{
+    height: 350px;
+  }
+
+  .swap_label_div{
+    height: 50px;
+  }
+
+  .swap_exchange_div{
+    height: 150px;
+  }
+
+  .inner_swap{
+    height: 150px;
+    justify-content: center;
+  }
+
+  .swap_label{
+    height: 200px;
+  }
+
+}
+
+@media screen and (max-height: 400px){
+  .header{
+    height: 100px;
+  }
+
+  .TranSwap {
+    height: 50px;
+    width: 150px;
+  }
+}
+
+/* Other screen size suitation */

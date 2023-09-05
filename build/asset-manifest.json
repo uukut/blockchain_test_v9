@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5b551cab.css",
+    "main.js": "./static/js/main.233e5c4b.js",
+    "static/js/787.574a4694.chunk.js": "./static/js/787.574a4694.chunk.js",
+    "static/media/TranSwap_icon.png": "./static/media/TranSwap_icon.8645503a7992ca1a0323.png",
+    "index.html": "./index.html",
+    "main.5b551cab.css.map": "./static/css/main.5b551cab.css.map",
+    "main.233e5c4b.js.map": "./static/js/main.233e5c4b.js.map",
+    "787.574a4694.chunk.js.map": "./static/js/787.574a4694.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b551cab.css",
+    "static/js/main.233e5c4b.js"
+  ]
+}
